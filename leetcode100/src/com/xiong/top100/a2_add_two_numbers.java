@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @Description
  * @date 2023-02-06 5:34 下午
  */
-public class add_two_numbers_2 {
+public class a2_add_two_numbers {
 
     public static void main(String[] args) {
 

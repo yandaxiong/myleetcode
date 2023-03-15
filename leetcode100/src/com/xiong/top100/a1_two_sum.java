@@ -1,11 +1,14 @@
 package com.xiong.top100;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
  * @author xiong
  * @Description
  * @date 2023-02-06 5:21 下午
  */
-public class two_sum_1 {
+public class a1_two_sum {
     public int[] twoSum(int[] nums, int target) {
         int x = nums.length;
         for(int i=0;i<x-1;i++){
@@ -21,7 +24,6 @@ public class two_sum_1 {
     }
 
     public static void main(String[] args) {
-
     }
 
 }

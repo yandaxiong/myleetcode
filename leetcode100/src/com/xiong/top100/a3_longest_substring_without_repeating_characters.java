@@ -7,7 +7,7 @@ import java.util.HashMap;
  * @Description     给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
  * @date 2023-02-08 4:58 下午
  */
-public class longest_substring_without_repeating_characters_3 {
+public class a3_longest_substring_without_repeating_characters {
 
     public static void main(String[] args) {
         int len = lengthOfLongestSubstring("dsfadsfasdfxxddfnj");
