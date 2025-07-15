@@ -6,20 +6,4 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-# 忽略所有 .iml 文件
-*.iml
 
-# 忽略 idea 配置目录
-.idea/
-
-# 忽略日志文件
-*.log
-
-# 忽略环境配置文件
-.env
-application-dev.yml
-config/local.conf
-# 忽略构建输出目录
-/target/
-/build/
-/out/
