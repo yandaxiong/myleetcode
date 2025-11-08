@@ -18,4 +18,20 @@ public class OutArrays {
         System.out.println(Arrays.toString(a));
         System.out.println("-----------------------------");
     }
+    public static  void outArrays(double[] a){
+        System.out.println(Arrays.toString(a));
+        System.out.println("-----------------------------");
+    }
+    public static  void outArrays(char[][] a){
+        for (char[] ints : a) {
+            System.out.println(Arrays.toString(ints));
+        }
+        System.out.println("-----------------------------");
+    }
+    public static  void outArrays(double[][] a){
+        for (double[] ints : a) {
+            System.out.println(Arrays.toString(ints));
+        }
+        System.out.println("-----------------------------");
+    }
 }
