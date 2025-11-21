@@ -1,14 +1,12 @@
 package com.xiong.jingdian150_3;
 
-import java.util.ArrayList;
-
 /**
  * @author xiong
  * @create 2025-11-14-15:33
  */
-public class b5_52Solution {
+public class b5_52totalNQueens {
     public static void main(String[] args) {
-        b5_52Solution b552Solution = new b5_52Solution();
+        b5_52totalNQueens b552Solution = new b5_52totalNQueens();
         System.out.println(b552Solution.totalNQueens(4));
     }
 

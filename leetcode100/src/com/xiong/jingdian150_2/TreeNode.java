@@ -4,33 +4,40 @@ package com.xiong.jingdian150_2;
  * @author xiong
  * @create 2025-08-22-16:21
  */
- public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
+public class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
-//    @Override
-//    public String toString() {
-//        return "TreeNode{" +
-//                "val=" + val +
-//                ", left=" + left +
-//                ", right=" + right +
-//                '}';
-//    }
-@Override
+    public TreeNode() {
+    }
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
+
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+
+    @Override
     public String toString() {
+        return "TreeNode{" +
+                "val=" + val +
+                ", left=" + left +
+                ", right=" + right +
+                '}';
+    }
+
+    public String toStringValue() {
         return "TreeNode{" +
                 "val=" + val +
                 '}';
     }
-    public static TreeNode getExampleTreeNode(){
+
+    public static TreeNode getExampleTreeNode() {
         TreeNode treeNode = new TreeNode(4);
         TreeNode treeNodeL1 = new TreeNode(2);
         TreeNode treeNodeR1 = new TreeNode(6);
@@ -46,9 +53,7 @@ package com.xiong.jingdian150_2;
 //        treeNodeR1.right = treeNodeR1R1;
 
 
-
-
-        return  treeNode;
+        return treeNode;
     }
 
 }
