@@ -3,6 +3,7 @@ git config --global --unset http.https://github.com.proxy
 
 # 设置全局HTTP/HTTPS代理
 git config --global http.proxy 127.0.0.1:7890
+git config --global http.proxy 127.0.0.1:10809
 
 #获取代理
 git config --global --list | findstr "proxy"
